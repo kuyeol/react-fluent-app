@@ -1,18 +1,30 @@
 
 import App from './App.tsx'
 
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+
 import { FluentProvider, webLightTheme } from '@fluentui/react-components';
 import Print from './testcomponents/print.tsx';
 
 
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+
+root.render(
   <FluentProvider theme={webLightTheme}>
     <App />
-
-    <h1> 
-       <Print message="Test Place" />
-    </h1>
+        <h1> 
+        <Print message="Test Place" />
+     </h1>
   </FluentProvider>,
-  document.getElementById('root'),
 );
+
+
+// ReactDOM.render(
+//   <FluentProvider theme={webLightTheme}>
+//     <App />
+//     <h1> 
+//        <Print message="Test Place" />
+//     </h1>
+//   </FluentProvider>,
+//   document.getElementById('root'),
+// );
