@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, useFlatTreeStyles_unstable } from '@fluentui/react-components';
+import { Button } from '@fluentui/react-components';
 import { makeStyles } from '@fluentui/react-components';
 
 
