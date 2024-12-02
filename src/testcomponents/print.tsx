@@ -11,7 +11,6 @@ import {
   DialogBody,
   DialogActions,
   DialogContent,
-  Link,
   createPresenceComponent,
   motionTokens,
   Persona,
@@ -19,7 +18,7 @@ import {
   SearchBox,
 } from "@fluentui/react-components";
 import { Accordion, AccordionHeader, AccordionItem, AccordionPanel, Button } from '@fluentui/react-components';
-import { SendRegular, SendFilled, AccessTimeFilled, PersonRegular } from "@fluentui/react-icons";
+import {  AccessTimeFilled, PersonRegular } from "@fluentui/react-icons";
 import {
    DismissSquareRegular,
    AddSquareMultiple24Filled,
