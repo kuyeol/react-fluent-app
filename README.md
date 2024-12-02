@@ -1,3 +1,25 @@
+
+# code refactoring_1
+```js
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import './index.css'
+
+ReactDOM.createRoot(
+  document.getElementById('root')!).render
+  (
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+
+```
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
