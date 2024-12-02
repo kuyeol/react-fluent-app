@@ -32,7 +32,7 @@ function App() {
            <HeaderContainer/>
 
 
-         <Print message="Test Place a" />
+         <Print message="Test Place" />
    
       </div>
    

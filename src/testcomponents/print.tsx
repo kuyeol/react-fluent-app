@@ -11,7 +11,9 @@ const Print: React.FC<Props> = ({ message }) => {
     <div>
 
       <div>
-      <Buttons name={message} />
+        <h1>{message}</h1>
+      <Buttons name="버튼" />
+
         <p>[End]</p>
       </div>
 

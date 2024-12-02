@@ -10,28 +10,34 @@ interface Props {
 
 const useStyles = makeStyles({
     root: {
-        margin: "2px",
+        margin: "10px",
         color: 'red',
         backgroundColor: 'black',
-        padding: "5px"
+        padding: "10px",
+        border:"2px solid green"
     },
 });
 
 function Component() {
     const flStyle = useStyles();
 
-    return <div className={flStyle.root} />;
+    return (
+    
+    <div className={flStyle.root} />
+);
 }
 
 const Buttons: React.FC<Props> = ({ name }) => {
     const flStyle = useStyles();
     return (
-        <>
+        <div className={flStyle.root}>
             <Component />
-            <div className={flStyle.root}>
-                <Button appearance="primary">{name}</Button>
 
-            </div>    </>
+
+            <Button appearance="primary">{name}</Button>
+
+        </div>
+
     );
 
 }
