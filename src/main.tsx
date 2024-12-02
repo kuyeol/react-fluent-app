@@ -4,15 +4,16 @@ import App from './App.tsx'
 import { createRoot } from 'react-dom/client';
 
 import { FluentProvider, webLightTheme } from '@fluentui/react-components';
-import Print from './testcomponents/print.tsx';
 
 
 const root = createRoot(document.getElementById('root'));
 
 root.render(
+  <div className="root">
   <FluentProvider theme={webLightTheme}>
     <App />
   </FluentProvider>,
+</div>
 );
 
 

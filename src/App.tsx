@@ -32,7 +32,11 @@ function App() {
            <HeaderContainer/>
 
 
+<<<<<<< HEAD
          <Print message="Test Place a" />
+=======
+         <Print message="Test Place Msg" />
+>>>>>>> 30d4919 (1236)
    
       </div>
    
