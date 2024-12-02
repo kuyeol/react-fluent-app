@@ -19,7 +19,7 @@ root.render(
       <div className="root">
   <FluentProvider theme={webLightTheme}>
     <App />
-  </FluentProvider>,
+  </FluentProvider>
 </div>
 
 );
