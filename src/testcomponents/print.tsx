@@ -1,4 +1,5 @@
-import React from 'react';
+
+
 import Buttons from '../ui/common/Buttons';
 
 interface Props {
@@ -10,14 +11,8 @@ const Print: React.FC<Props> = ({ message }) => {
     <div>
 
       <div>
-        <p>{message}</p>
-        <h5><p>[Start]</p></h5>
-        
-      </div>
-      <Buttons name="Test" />
-      <div>
-
-        <p><h5>[End]</h5></p>
+      <Buttons name={message} />
+        <p>[End]</p>
       </div>
 
     </div>
@@ -26,3 +21,15 @@ const Print: React.FC<Props> = ({ message }) => {
 
 
 export default Print;
+
+
+// export default function Print() {
+
+
+//   return (
+//     <div>
+//       <Buttons name="dddd" />
+//     </div>
+//   );
+
+// }

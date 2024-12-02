@@ -6,7 +6,7 @@ export default function HeaderContainer() {
 
     return (
         <div>
-            <h1>헤더 </h1>
+            <p>헤더 </p>
         </div>
     );
 

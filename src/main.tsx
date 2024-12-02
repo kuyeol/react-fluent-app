@@ -12,9 +12,6 @@ const root = createRoot(document.getElementById('root'));
 root.render(
   <FluentProvider theme={webLightTheme}>
     <App />
-        <h1> 
-        <Print message="Test Place" />
-     </h1>
   </FluentProvider>,
 );
 
