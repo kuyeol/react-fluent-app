@@ -135,6 +135,12 @@ const useStyles = makeStyles({
           <NavItem href={linkDestination} icon={<Dashboard />} value="1">
             Dashboard
           </NavItem>
+          <NavItem href="http://youtube.com" icon={<Dashboard />} value="1">
+            Youtube
+          </NavItem>
+          <NavItem href="http://naver.com" icon={<Dashboard />} value="1">
+            Naver
+          </NavItem>
         </NavDrawerBody>
       </NavDrawer>
 
