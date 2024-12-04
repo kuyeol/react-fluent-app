@@ -85,7 +85,9 @@ const useStyles = makeStyles({
 
   type DrawerType = Required<DrawerProps>["type"];
 
-export const NavContainer = (props: Partial<NavDrawerProps>) => {
+//export const NavContainer = (props: Partial<NavDrawerProps>) => {
+    
+    export const NavContainer = (props: Partial<NavDrawerProps>) => {
     const styles = useStyles();
  
 
@@ -128,7 +130,7 @@ export const NavContainer = (props: Partial<NavDrawerProps>) => {
             as="a"
             href={linkDestination}
           >
-            Contoso HR
+            Contoso HR{props.children}
           </AppItem>
           <NavItem href={linkDestination} icon={<Dashboard />} value="1">
             Dashboard
