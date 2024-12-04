@@ -24,6 +24,7 @@ import {
    AddSquareMultiple24Filled,
   } from '@fluentui/react-icons';
 import { List, ListItem } from '@fluentui/react-list-preview';
+import { NavContainer } from '../ui/NavContaioner';
   
 const useStyles = makeStyles({
   root: {
@@ -106,7 +107,7 @@ const Print: React.FC<Props> = ({ message }) => {
   const styles = useStyles();
   return (
     <div>
- 
+ <NavContainer />
       <div>
         <h1>{message}</h1>
         <DismissSquareRegular /> <List
